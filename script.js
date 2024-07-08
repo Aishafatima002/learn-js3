@@ -69,7 +69,7 @@
 //     } else{
 //         return n* factorial(n-1);
 //     }
-    
+
 // }
 // console.log(factorial(1))
 // console.log(factorial(2))
@@ -181,7 +181,7 @@
 //     else if(startNum<endNum){
 //         for(let i = startNum; i < endNum; i++) {
 //             document.write(i+"<br>");
-            
+
 //         }
 //     }
 
@@ -190,4 +190,282 @@
 //     }
 // }
 // count(startNum,endNum)
+
+// local nglobal variables
+//Global variables
+// let a=21
+// let b=12
+// function  sum(a,b) {
+//     return a+b
+// }
+// console.log(sum(a,b))
+//local var in the function
+
+// class activity
+// function even_num(number) {
+//   return number%2===0;
+// }
+// console.log(even_num(2))
+
+//
+// let  sum=0
+// function even_num() {
+//     for(let i=1;i<=10;i++){
+//         if(i%2===0){
+//           return  sum+=i
+//         }
+//         document.write(i)
+//     }
+// }
+// document.write(even_num(sum))
+
+
+
+
+
+
+
+// // switch statements
+// let dayOfWeek="sunday"
+// switch (dayOfWeek) {
+//     case "monday":
+//         document.write("today is monday")
+//         break;
+//         case "tuesday":
+//         document.write("today is tuesday")
+//         break;
+//         case "wednesday":
+//         document.write("today is wednesday")
+//         break;
+//         case "thursday":
+//         document.write("today is thursday")
+//         break;
+//         case "friday":
+//         document.write("today is friday")
+//         break;
+//         case "sunday":
+//         document.write("today is sunday")
+//         break
+//         default:
+//             document.write("enter the current day")
+
+
+// }
+//
+// function getMonthName(Name) {
+//     switch (Name) {
+//         case 1:
+//             return "january"
+
+//         case 2:
+//             return "feburary"
+
+//         case 3:
+//             return "march"
+
+//         case 4:
+//             return "april"
+
+//         case 5:
+//             return "may"
+
+//         case 6:
+//             return "june"
+
+//         case 7:
+//             return "july"
+
+//         case 8:
+//             return "august"
+
+//         case 9:
+//             return "september"
+
+//         case 10:
+//             return "october"
+
+//         case 11:
+//             return "november"
+
+//         case 12:
+//             return "december"
+
+//     }
+// }
+// console.log(getMonthName(4))
+
+// // 
+// function calculateDiscount(productType,price) {
+//     let discount;
+//     switch (productType) {
+
+//         case productType="electronic":
+//             discount=price*0.01;
+//             break;
+//             case productType="clothing":
+//                 discount=price*0.2;
+//                 break;
+//                 case productType="book":
+//                     discount=price*0.15;
+//                     break;
+                 
+                      
+//         default:
+//             console.log("original price")
+//             break;
+//     }
+//     let discountPrice=(price-discount).toFixed(2)
+//     return discountPrice;
+// }
+// console.log(calculateDiscount("electronic",3300))
+// console.log(calculateDiscount("clothing",1200))
+// console.log(calculateDiscount("book",300))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
