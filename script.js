@@ -321,6 +321,13 @@
 // console.log(calculateDiscount("clothing",1200))
 // console.log(calculateDiscount("book",300))
 
+//
+
+
+
+
+
+
 
 
 
